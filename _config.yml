@@ -2,9 +2,9 @@ minimal_mistakes_skin    : "default" # "air", "aqua", "contrast", "dark", "dirt"
 
 # Site Settings
 locale                   : "en-US"
-title                    : "Data 8 Textbook"
+title                    : "DSC10 Textbook"
 title_separator          : "-"
-name                     : "Berkeley DSEP"
+name                     : "UC San Diego DSC10 Textbook"
 description              : ""
 url                      : "https://www.inferentialthinking.com" # the base hostname & protocol for your site e.g. "https://mmistakes.github.io"
 baseurl                  : "" # the subpath of your site, e.g. "/blog"
@@ -14,13 +14,13 @@ footer                   : false # Whether to include a footer with the built si
 masthead                 : true  # Whether to include a masthead (header/navbar) with the site. (the masthead won't ever be shown with the textbook)
 
 # Textbook settings
-hub_url                  : "https://mybinder.org"  # The URL for your JupyterHub/BinderHub.
-hub_name                 : "DataHub"  # The name of your JupyterHub (used for the button in the NavBar. If an empty string, no button is shown)
-hub_type                 : "binder"  # ['binder', 'jupyterhub']  Whether to build interact links for a BinderHub or a JupyterHub
+hub_url                  : "https://jupyterhub.ucsd.edu"  # The URL for your JupyterHub/BinderHub.
+hub_name                 : "UC San Diego jupyterhub"  # The name of your JupyterHub (used for the button in the NavBar. If an empty string, no button is shown)
+hub_type                 : "jupyterhub"  # ['binder', 'jupyterhub']  Whether to build interact links for a BinderHub or a JupyterHub
 textbook_repo_base       : "https://github.com/"  # The site on which the textbook repository is hosted
-textbook_repo_org        : "data-8"  # The username or organization that owns this repository
-textbook_repo_name       : "textbook"  # The name of the repository on the web
-textbook_repo_branch     : "gh-pages"  # The branch on which your textbook is hosted.
+textbook_repo_org        : "ucsd-ets"  # The username or organization that owns this repository
+textbook_repo_name       : "dsc10-textbook"  # The name of the repository on the web
+textbook_repo_branch     : "gh-pages-fa18"  # The branch on which your textbook is hosted.
 number_chapters          : false  # Whether to number the chapers in the sidebar for the textbook
 chapter_titles           : true  # Whether to include the title of the chapter at the top of each chapter
 textbook_only            : true  # If 'true', the home page will be the first chapter of the textbook, and *only* the sidebar is shown
@@ -101,7 +101,7 @@ analytics:
 
 # Site Author
 author:
-  name             : "Data 8 Team"
+  name             : "Data 8 Team - local modifications by UC San Diego ETS"
   avatar           : # path of avatar image, e.g. "/assets/images/bio-photo.jpg"
   bio              : ""
   location         : "Berkeley, CA."
